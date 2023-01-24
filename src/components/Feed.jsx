@@ -38,8 +38,7 @@ const Feed = () => {
             color: 'white'
           }}
         >
-          NEW
-          <span 
+          NEW <span 
             style={{ color: '#A51C30'}}
           >
             Videos
