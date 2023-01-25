@@ -1,8 +1,13 @@
 # Project Title: [ YouTube_API_React_App ]
 
-Deployed on Netlify Live URL: [ ]
+Deployed on Netlify Live URL: [ https://dazzling-banoffee-e8e806.netlify.app/ ]
 
-![App Screenshots](./client/src/assets/minJourney_1.jpeg)
+![App Screenshots](./src/utils/assets/Min_Tube_1.jpeg)
+![App Screenshots](./src/utils/assets/Min_Tube_2.jpeg)
+![App Screenshots](./src/utils/assets/Min_Tube_3.jpeg)
+![App Screenshots](./src/utils/assets/Min_Tube_4.jpeg)
+![App Screenshots](./src/utils/assets/Min_Tube_5.jpeg)
+![App Screenshots](./src/utils/assets/Min_Tube_6.jpeg)
 
 ## Table of Contents
 1. [Description](#description)
@@ -79,7 +84,7 @@ MIT
 
 -----
 
-Deployed on Netlify Live URL: [ ]
+Deployed on Netlify Live URL: [ https://dazzling-banoffee-e8e806.netlify.app/ ]
 
 ### Questions 
 
@@ -87,7 +92,7 @@ Deployed on Netlify Live URL: [ ]
 
 #### GitHub URL: https://github.com/min-hinthar
 
-#### GitHub Repo: https://github.com/min-hinthar/YouTube_API_React_App
+#### GitHub Repo: https://github.com/min-hinthar/youtube_api_react_app
 
 #### Email: min@mandalaymorningstar.com
 

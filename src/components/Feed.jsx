@@ -7,7 +7,7 @@ import { fetchFromAPI } from "../utils/fetchFromAPI";
 
 const Feed = () => {
 
-  const [selectedCategory, setSelectedCategory] = useState('PV TV Myanmar');
+  const [selectedCategory, setSelectedCategory] = useState('PVTV Myanmar');
   const [videos, setVideos] = useState([]);
 
   useEffect(() => {
