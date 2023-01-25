@@ -10,7 +10,7 @@ const VideoCard = ({ video: { id: { videoId }, snippet} }) => {
   return (
     <Card 
       sx={{
-        width: { md: '320px', xs: '100%' },
+        width: { xs: '100%', sm: '358px', md: '320px',  },
         boxShadow: 'none',
         borderRadius: '5px'
 
@@ -22,7 +22,7 @@ const VideoCard = ({ video: { id: { videoId }, snippet} }) => {
           image={snippet?.thumbnails?.high?.url || demoThumbnailUrl}
           alt={snippet?.title}
           sx={{
-            width: { sx: '100%', sm: '358px'},
+            width: { sx: '100%', sm: '358px', md: '320px'},
             height: 180,
           }}
         />
@@ -53,6 +53,14 @@ const VideoCard = ({ video: { id: { videoId }, snippet} }) => {
             <Verified sx={{ fontSize: 12, color: 'skyblue', ml: '5px' }} />
           </Typography>
         </Link>
+          <Typography
+            variant="body2"
+            fontWeight='light'
+            color='gray'
+            pt={1}
+          >
+            {snippet?.publishedAt.slice(0, 10)}
+          </Typography>
       </CardContent>
     </Card>
   ) 

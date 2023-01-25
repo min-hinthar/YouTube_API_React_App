@@ -11,16 +11,18 @@ import GraphicEqIcon from '@mui/icons-material/GraphicEq';
 import TheaterComedyIcon from '@mui/icons-material/TheaterComedy';
 import FitnessCenterIcon from '@mui/icons-material/FitnessCenter';
 import DeveloperModeIcon from '@mui/icons-material/DeveloperMode';
+import { Newspaper, NewspaperTwoTone, NewspaperRounded } from '@mui/icons-material';
 import logos from './assets/logo.png'
 
 export const logo = logos;
 
 export const categories = [
-  { name: 'New', icon: <HomeIcon />, },
+  { name: 'PV TV Myanmar', icon: <HomeIcon />, },
+  { name: 'BBC Burmese', icon: <NewspaperTwoTone />, },
+  { name: 'RFA Burmese', icon: <NewspaperRounded />, },
+  { name: 'VOA Burmese', icon: <Newspaper />, },
   { name: 'JS Mastery', icon: <CodeIcon />, },
   { name: 'Coding', icon: <CodeIcon />, },
-  { name: 'ReactJS', icon: <CodeIcon />, },
-  { name: 'NextJS', icon: <CodeIcon />, },
   { name: 'Music', icon: <MusicNoteIcon /> },
   { name: 'Education', icon: <SchoolIcon />, },
   { name: 'Podcast', icon: <GraphicEqIcon />, },
@@ -31,7 +33,6 @@ export const categories = [
   { name: 'Fashion', icon: <CheckroomIcon />, },
   { name: 'Beauty', icon: <FaceRetouchingNaturalIcon />, },
   { name: 'Comedy', icon: <TheaterComedyIcon />, },
-  { name: 'Gym', icon: <FitnessCenterIcon />, },
   { name: 'Crypto', icon: <DeveloperModeIcon />, },
 ];
 
