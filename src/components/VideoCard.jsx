@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { Typography, Card, CardContent, CardMedia } from "@mui/material";
-import { CheckCircle } from "@mui/icons-material";
+import { Verified } from "@mui/icons-material";
 
 import { demoThumbnailUrl, demoVideoUrl, demoVideoTitle, demoChannelUrl, demoChannelTitle } from "../utils/constants";
 
@@ -50,7 +50,7 @@ const VideoCard = ({ video: { id: { videoId }, snippet} }) => {
             color='gray'
           >
             {snippet?.channelTitle.slice(0, 60) || demoChannelTitle.slice(0, 60)}
-            <CheckCircle sx={{ fontSize: 12, color: 'gray', ml: '5px' }} />
+            <Verified sx={{ fontSize: 12, color: 'skyblue', ml: '5px' }} />
           </Typography>
         </Link>
       </CardContent>
