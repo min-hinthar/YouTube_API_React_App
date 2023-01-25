@@ -21,6 +21,8 @@ export const categories = [
   { name: 'BBC Burmese', icon: <NewspaperTwoTone />, },
   { name: 'RFA Burmese', icon: <NewspaperRounded />, },
   { name: 'VOA Burmese', icon: <Newspaper />, },
+  { name: 'DVB TV News', icon: <DeveloperModeIcon />, },
+  { name: 'Mizzima TV', icon: <LiveTvIcon />, },
   { name: 'JS Mastery', icon: <CodeIcon />, },
   { name: 'Coding', icon: <CodeIcon />, },
   { name: 'Music', icon: <MusicNoteIcon /> },
@@ -28,12 +30,10 @@ export const categories = [
   { name: 'Podcast', icon: <GraphicEqIcon />, },
   { name: 'Movie', icon: <OndemandVideoIcon />, },
   { name: 'Gaming', icon: <SportsEsportsIcon />, },
-  { name: 'Live', icon: <LiveTvIcon />, },
   { name: 'Sports', icon: <FitnessCenterIcon />, },
   { name: 'Fashion', icon: <CheckroomIcon />, },
   { name: 'Beauty', icon: <FaceRetouchingNaturalIcon />, },
   { name: 'Comedy', icon: <TheaterComedyIcon />, },
-  { name: 'Crypto', icon: <DeveloperModeIcon />, },
 ];
 
 export const demoThumbnailUrl = 'https://i.ibb.co/G2L2Gwp/API-Course.png';
